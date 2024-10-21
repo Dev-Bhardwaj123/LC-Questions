@@ -1,25 +1,31 @@
 class Solution {
 public:
-    bool canJump(vector<int>& nums) {
-        vector<long long> dp(nums.size()+1,-1);
-        return solve(0,nums,dp);
-    }
-    long long solve(long long i,vector<int>& nums,vector<long long>& dp){
-        if(i>=nums.size()-1){
-           return 1;
+    bool function(int index, int &n, vector<int>& nums, vector<int>& dp)
+    {
+        if (index >= n - 1) 
+        {
+            return true;
         }
-        if(dp[i]!=-1){
-            return dp[i];
+        
+        if (dp[index] != -1)
+        {
+            return dp[index];
         }
-        long long ans=0;
-        if(nums[i]==0){
-            return dp[i]=0;
-        }
-        for(int j=1;j<=nums[i];j++){
-            if(solve(i+j,nums,dp)){
-                return dp[i+j]=1;
+
+        int maxJump = nums[index];
+        for (int i = 1; i <= maxJump; i++) 
+        {
+            if (function(index + i, n, nums, dp)) 
+            {
+                return dp[index] = true;
             }
         }
-        return dp[i]=0;
+        return dp[index] = false;
+    }
+
+    bool canJump(vector<int>& nums) {
+        int n = nums.size();
+        vector<int>dp(n,-1);
+        return function(0,n,nums,dp);
     }
 };
