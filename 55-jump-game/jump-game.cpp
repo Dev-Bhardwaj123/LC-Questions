@@ -6,12 +6,7 @@ public:
     }
     long long solve(long long i,vector<int>& nums,vector<long long>& dp){
         if(i>=nums.size()-1){
-           if(i==nums.size()-1){
-            return 1;
-           }
-           else{
-            return 0;
-           }
+           return 1;
         }
         if(dp[i]!=-1){
             return dp[i];
