@@ -1,24 +1,20 @@
 class Solution {
 public:
-    bool isPalindrome(string s){
-        string str= s;
-        reverse(str.begin(),str.end());
-        if(str==s){
-            return true;
-         } 
-         else return false;
-    }
     int countSubstrings(string s) {
+        int n=s.length(),ans=0;
+        for(int i=0;i<n;i++){
+            int even=palindromeCount(s,i,i+1);
+            int odd=palindromeCount(s,i,i);
+            ans+=even+odd;
+        }
+        return ans;
+    }
+    int palindromeCount(const string& s,int left,int right){
         int cnt=0;
-        //Make all substring
-        for(int i=0;i<s.length();i++){
-            string str="";
-            for(int j=i;j<s.length();j++){
-                str+=s[j];
-                if(isPalindrome(str)){
-                    cnt++;
-                }
-            }
+        while(left>=0 && right<s.length() && s[left]==s[right]){
+            --left;
+            ++right;
+            ++cnt;
         }
         return cnt;
     }
