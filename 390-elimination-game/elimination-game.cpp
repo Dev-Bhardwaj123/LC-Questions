@@ -2,7 +2,7 @@ class Solution {
 public:
     int helper(int n,bool lToR){
         if(n==1){
-            return true;
+            return 1;
         }
         if(lToR){
             return 2*helper(n/2,false);
