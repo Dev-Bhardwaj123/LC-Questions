@@ -1,35 +1,34 @@
 class Solution {
 public:
-    bool dfs(int node, vector<vector<int>>& adj, vector<bool>& visit,
-             vector<bool>& inStack) {
-        if (inStack[node]) {
-            return true;
-        }
-        if (visit[node]) {
-            return false;
-        }
-        visit[node] = true;
-        inStack[node] = true;
-        for (auto neighbor : adj[node]) {
-            if (dfs(neighbor, adj, visit, inStack)) {
-                return true;
-            }
-        }
-        inStack[node] = false;
-        return false;
-    }
     vector<int> eventualSafeNodes(vector<vector<int>>& graph) {
-        int n = graph.size();
-        vector<bool> visit(n), inStack(n);
-        for (int i = 0; i < n; i++) {
-            dfs(i, graph, visit, inStack);
-        }
-        vector<int> safeNodes;
-        for (int i = 0; i < n; i++) {
-            if (!inStack[i]) {
-                safeNodes.push_back(i);
+        vector<vector<int>> adjRev(graph.size());
+        vector<int> indegree(graph.size(),0);
+        for(int i=0;i<graph.size();i++){
+            for(auto j:graph[i]){
+                adjRev[j].push_back(i);
+                indegree[i]++;
             }
         }
-        return safeNodes;
+        queue<int> q;
+        vector<int> sfnodes;
+        for(int i=0;i<indegree.size();i++){
+            if(indegree[i]==0){
+                q.push(i);
+            }
+        }
+        while(!q.empty()){
+            int s=q.front();
+            q.pop();
+            sfnodes.push_back(s);
+            for(auto k:adjRev[s]){
+                indegree[k]--;
+                if(indegree[k]==0){
+                    q.push(k);
+                }
+            }
+        }
+        sort(sfnodes.begin(),sfnodes.end());
+        return sfnodes;
+
     }
 };
