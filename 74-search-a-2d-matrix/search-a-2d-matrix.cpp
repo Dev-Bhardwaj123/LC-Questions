@@ -8,7 +8,7 @@ public:
             if(midV==target){
                 return true;
             }
-            else if(midV>target){
+            else if(target<midV){
                 high=mid-1;
             }
             else{
