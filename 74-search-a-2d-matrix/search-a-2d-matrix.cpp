@@ -8,13 +8,13 @@ public:
             if(midV==target){
                 return true;
             }
-            else if(target<midV){
-                high=mid-1;
-            }
-            else{
+            else if(midV<target){
                 low=mid+1;
             }
+            else{
+                high=mid-1;
+            }
         }
-        return false;
+            return false;
     }
 };
