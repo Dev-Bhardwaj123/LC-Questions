@@ -21,7 +21,6 @@ public:
 
     }
     bool exist(vector<vector<char>>& board, string word) {
-        bool res=false;
         for(int i=0;i<board.size();i++){
             for(int j=0;j<board[0].size();j++){
                 if(isValid(0,i,j,board,word)) return true;
