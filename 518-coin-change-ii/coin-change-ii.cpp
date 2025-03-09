@@ -1,27 +1,23 @@
 class Solution {
 public:
-    int solve(vector<int>& coins,int amount,int ind,vector<vector<int>>& dp){
-        //base cond
-        if(ind==0){
+    int solve(int amount,vector<int>& coins,int i,vector<vector<int>>& dp){
+        //base condition, terminates when all cases checked
+        if(i==0){
             return (amount%coins[0]==0);
         }
-        if(dp[ind][amount]!=-1){
-            return dp[ind][amount];
+        if(dp[i][amount]!=-1){
+            return dp[i][amount];
         }
-        //not take case
-        int notTake=solve(coins,amount,ind-1,dp);
-        //take case
+        int notTake=solve(amount,coins,i-1,dp);
         int take=0;
-        if(coins[ind]<=amount){
-            take=solve(coins,amount-coins[ind],ind,dp);
+        if(amount>=coins[i]){
+            take=solve(amount-coins[i],coins,i,dp);
         }
-        return dp[ind][amount]=take+notTake;
-
+        return dp[i][amount]=take+notTake;
     }
     int change(int amount, vector<int>& coins) {
         int n=coins.size();
         vector<vector<int>> dp(n,vector<int>(amount+1,-1));
-        int z=solve(coins,amount,n-1,dp);
-        return z;
+        return solve(amount,coins,n-1,dp);
     }
 };
