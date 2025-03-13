@@ -1,29 +1,33 @@
 class Solution {
 public:
-    bool isValid(int ind,int i,int j,vector<vector<char>>& board,string word){
-        //base case if ind reaches end
-        if(ind==word.length()){
+    bool finPath(vector<vector<char>>& board,string word,int x,int y,int wLen){
+        if(wLen==word.length()){
             return true;
         }
-        int n=board.size();
-        int m=board[0].size();
-        if(i<0 || j<0 || i>=n || j>=m || board[i][j]!=word[ind]){
+        if(x<0 ||y<0 ||x>=board.size() || y>=board[0].size()){
             return false;
         }
-        char temp=board[i][j];
-        board[i][j]='#';
-        bool res=isValid(ind+1,i+1,j,board,word) || 
-                 isValid(ind+1,i,j+1,board,word) ||
-                 isValid(ind+1,i-1,j,board,word) ||
-                 isValid(ind+1,i,j-1,board,word);
-        board[i][j]=temp;
-        return res;
-
+        if(board[x][y]==word[wLen]){
+            char temp=board[x][y];
+            board[x][y]='#';
+            bool res=finPath(board,word,x+1,y,wLen+1) || 
+                     finPath(board,word,x,y+1,wLen+1) ||
+                     finPath(board,word,x,y-1,wLen+1) ||
+                     finPath(board,word,x-1,y,wLen+1);
+            board[x][y]=temp;
+            return res;
+        }
+        return false;
     }
     bool exist(vector<vector<char>>& board, string word) {
-        for(int i=0;i<board.size();i++){
-            for(int j=0;j<board[0].size();j++){
-                if(isValid(0,i,j,board,word)) return true;
+        int m=board.size();
+        int n=board[0].size();
+        if(n*m<word.length()) return false;
+        for(int i=0;i<m;i++){
+            for(int j=0;j<n;j++){
+                if(board[i][j]==word[0]){
+                    if(finPath(board,word,i,j,0)) return true;
+                }
             }
         }
         return false;
