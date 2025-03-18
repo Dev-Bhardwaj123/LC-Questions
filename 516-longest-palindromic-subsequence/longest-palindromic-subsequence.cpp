@@ -6,7 +6,7 @@ public:
         reverse(t.begin(),t.end());
         int m=t.size();
         vector<vector<int>> dp(n+1,vector<int>(m+1,-1));
-        for(int j=0;j<=m;j++){
+        for(int j=0;j<m;j++){
             dp[0][j]=0;
         }
         for(int i=0;i<n;i++){
