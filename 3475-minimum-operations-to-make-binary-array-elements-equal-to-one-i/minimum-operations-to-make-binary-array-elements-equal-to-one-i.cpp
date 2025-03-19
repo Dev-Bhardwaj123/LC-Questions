@@ -13,7 +13,9 @@ public:
             }
             i++;
         }
-        for(auto it:nums)if(it==0)return -1;
+        for(auto it:nums){
+            if(it==0)return -1;
+        }
         return cnt;
     }
 };
