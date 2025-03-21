@@ -14,19 +14,18 @@ public:
             for(int j=1;j<=sum;j++){
                 bool notTake=dp[i-1][j];
                 bool take=false;
-                if(arr[i]<=j) take=dp[i-1][j-arr[i]];
-                dp[i][j]=take||notTake;
+                if(j>=arr[i]) take=dp[i-1][j-arr[i]];
+                dp[i][j]=notTake||take;
             }
         }
         return dp[n-1][sum];
     }
     bool canPartition(vector<int>& nums) {
-        int sum=0;
+        int totSum=0;
         for(int i=0;i<nums.size();i++){
-            sum+=nums[i];
+            totSum+=nums[i];
         }
-        int target=sum/2;
-        if(sum%2!=0) return false;
-        return isSubsetSum(nums,target);
+        if(totSum%2!=0) return false;
+        return isSubsetSum(nums,totSum/2);
     }
 };
