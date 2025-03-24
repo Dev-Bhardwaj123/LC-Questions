@@ -27,6 +27,5 @@ public:
         vector<string> temp;
         solve(0,temp,s,ans);
         return ans;
-
     }
 };
