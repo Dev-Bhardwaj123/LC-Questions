@@ -11,6 +11,12 @@ public:
 
 class Solution {
 public:
+    Node* findTail(Node* child){
+        while(child->next!=nullptr){
+            child=child->next;
+        }
+        return child;
+    }
     Node* flatten(Node* head) {
         Node* curr=head;
         while(curr!=nullptr){
@@ -19,19 +25,13 @@ public:
                 if(curr->next!=nullptr){
                     curr->next->prev=tail;
                 }
-            tail->next=curr->next;
-            curr->next=curr->child;
-            curr->child->prev=curr;
-            curr->child=nullptr;
+                tail->next=curr->next;
+                curr->next=curr->child;
+                curr->child->prev=curr;
+                curr->child=nullptr;
             }
             curr=curr->next;
         }
         return head;
-        }
-    Node* findTail(Node* child){
-        while(child->next!=nullptr){
-            child=child->next;
-        }
-        return child;
     }
 };
