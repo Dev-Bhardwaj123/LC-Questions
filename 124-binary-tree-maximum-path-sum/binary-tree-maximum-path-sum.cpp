@@ -23,6 +23,6 @@ public:
     }
     int maxPathSum(TreeNode* root) {
         int z=mps(root);
-        return max(z,maxi);
+        return max(maxi,z);
     }
 };
