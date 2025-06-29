@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0096-unique-binary-search-trees](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/0096-unique-binary-search-trees) |
+| [0342-power-of-four](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/0342-power-of-four) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -37,4 +38,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0096-unique-binary-search-trees](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/0096-unique-binary-search-trees) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0342-power-of-four](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/0342-power-of-four) |
+## Recursion
+|  |
+| ------- |
+| [0342-power-of-four](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/0342-power-of-four) |
 <!---LeetCode Topics End-->
