@@ -11,13 +11,13 @@ public:
             }
             else if((nums[j]-nums[i])==1){
                 j++;
-                cnt=max(cnt,j-i+1);
+                cnt=max(cnt,j-i);
             }
             else{
                 i++;
             }
         }
 
-        return (cnt>0)? cnt-1: cnt;
+        return cnt;
     }
 };
