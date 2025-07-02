@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0096-unique-binary-search-trees](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/0096-unique-binary-search-trees) |
+| [3618-find-the-original-typed-string-ii](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/3618-find-the-original-typed-string-ii) |
 ## Tree
 |  |
 | ------- |
@@ -61,4 +62,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3617-find-the-original-typed-string-i](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/3617-find-the-original-typed-string-i) |
+| [3618-find-the-original-typed-string-ii](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/3618-find-the-original-typed-string-ii) |
+## Prefix Sum
+|  |
+| ------- |
+| [3618-find-the-original-typed-string-ii](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/3618-find-the-original-typed-string-ii) |
 <!---LeetCode Topics End-->
