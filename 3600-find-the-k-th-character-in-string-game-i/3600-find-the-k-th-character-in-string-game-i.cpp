@@ -1,15 +1,19 @@
 class Solution {
 public:
-
     char kthCharacter(int k) {
-        if (k==1) return 'a';
-        int shift=0;
-        for(int b=bit_ceil((unsigned)k); b>1; b>>=1) {
-            if (k>b/2){
-                k-=b/2;
-                shift++;
+        string word = "a";
+        int n = 1;
+        while(n<k){
+            n = word.size();
+            for(int i = 0; i < n; i++){
+                if(word[i] == 'z'){
+                    word.push_back('a');
+                }
+                else{
+                    word.push_back(word[i]+1);
+                }
             }
         }
-        return 'a'+(shift%26);
+        return word[k-1];
     }
 };
