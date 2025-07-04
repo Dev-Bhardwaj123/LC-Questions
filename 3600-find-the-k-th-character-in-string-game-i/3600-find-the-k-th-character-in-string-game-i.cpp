@@ -1,19 +1,18 @@
 class Solution {
 public:
     char kthCharacter(int k) {
-        string word = "a";
-        int n = 1;
-        while(n<k){
-            n = word.size();
-            for(int i = 0; i < n; i++){
-                if(word[i] == 'z'){
-                    word.push_back('a');
-                }
-                else{
-                    word.push_back(word[i]+1);
-                }
+        int jump = 0, num = k;
+        while(num > 1){
+            int range = log2(num);
+            int mid = (1<<range);
+            
+            if(num == mid){
+                range--;
+                mid = (1<<range);
             }
+            num -= mid;
+            jump++;
         }
-        return word[k-1];
+        return (char)('a'+jump);
     }
 };
