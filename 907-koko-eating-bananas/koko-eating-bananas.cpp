@@ -1,23 +1,24 @@
 class Solution {
 public:
-    bool isPoss(vector<int>& piles,int h,long long mid){
-        int sum=0;
+    bool isPoss(vector<int>& piles, int h,int k){
+        int total=0;
         for(int i=0;i<piles.size();i++){
-            sum+=ceil((double)piles[i]/mid);
-            if(sum>h){
+            total+=ceil((double)piles[i]/k);
+            if(total>h){
                 return false;
             }
         }
-        return sum<=h;
+        return total<=h;
     }
     int minEatingSpeed(vector<int>& piles, int h) {
         sort(piles.begin(),piles.end());
-        int low=1,high=piles[piles.size()-1];
-        int ans=high;
+        int n=piles.size();
+        int low=1,high=piles[n-1];
+        int ans=INT_MAX;
         while(low<=high){
-            int mid=low+(high-low)/2;
+            int mid=(low+high)/2;
             if(isPoss(piles,h,mid)){
-                ans=mid;
+                ans=min(ans,mid);
                 high=mid-1;
             }
             else{
