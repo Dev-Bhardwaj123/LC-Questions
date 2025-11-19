@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0594-longest-harmonious-subsequence](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/0594-longest-harmonious-subsequence) |
 | [0792-binary-search](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/0792-binary-search) |
+| [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 ## Hash Table
 |  |
@@ -48,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0096-unique-binary-search-trees](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/0096-unique-binary-search-trees) |
 | [0792-binary-search](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/0792-binary-search) |
+| [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 ## Binary Tree
 |  |
 | ------- |
