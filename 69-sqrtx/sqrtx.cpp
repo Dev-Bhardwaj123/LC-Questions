@@ -3,21 +3,21 @@ public:
     int mySqrt(int x) {
         if (x < 2) return x;
 
-        int left = 1, right = x / 2;
+        int low = 1, high = x / 2;
+        int ans=0;
 
-        while (left <= right) {
-            int mid = left + (right - left) / 2;
-            long long square = (long long) mid * mid;
-
-            if (square == x) {
-                return mid;
-            } else if (square < x) {
-                left = mid + 1;
-            } else {
-                right = mid - 1;
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
+            long long val = (long long) mid * mid;
+            if(val<=x){
+                ans=mid;
+                low=mid+1;
+            }
+            else{
+                high=mid-1;
             }
         }
 
-        return right; 
+        return ans; 
     }
 };
