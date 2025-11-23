@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/0035-search-insert-position) |
+| [0074-search-a-2d-matrix](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/0074-search-a-2d-matrix) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0594-longest-harmonious-subsequence](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/0594-longest-harmonious-subsequence) |
 | [0792-binary-search](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/0792-binary-search) |
@@ -46,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/0035-search-insert-position) |
+| [0074-search-a-2d-matrix](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/0074-search-a-2d-matrix) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0096-unique-binary-search-trees](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/0096-unique-binary-search-trees) |
 | [0792-binary-search](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/0792-binary-search) |
@@ -87,4 +89,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/3600-find-the-k-th-character-in-string-game-i) |
+## Matrix
+|  |
+| ------- |
+| [0074-search-a-2d-matrix](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/0074-search-a-2d-matrix) |
 <!---LeetCode Topics End-->
