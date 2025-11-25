@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0594-longest-harmonious-subsequence](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/0594-longest-harmonious-subsequence) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 ## Sorting
@@ -71,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sliding Window
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0594-longest-harmonious-subsequence](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/0594-longest-harmonious-subsequence) |
 ## Counting
 |  |
@@ -79,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [3617-find-the-original-typed-string-i](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/3617-find-the-original-typed-string-i) |
 | [3618-find-the-original-typed-string-ii](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/3618-find-the-original-typed-string-ii) |
 ## Prefix Sum
