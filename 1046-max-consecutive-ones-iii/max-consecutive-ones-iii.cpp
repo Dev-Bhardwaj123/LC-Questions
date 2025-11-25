@@ -13,9 +13,10 @@ public:
                 }
                 l++;
             }
-            if(zeroes<=k){
-                maxlen=max(maxlen,r-l+1);
-            }
+            // if(zeroes<=k){
+            //     maxlen=max(maxlen,r-l+1);
+            // }
+            maxlen=max(maxlen,r-l+1);
             r++;
         }
         return maxlen;
