@@ -1,11 +1,13 @@
 class Solution {
 public:
     int numberOfSubstrings(string s) {
-        vector<int> last_seen={-1,-1,-1};
+        vector<int> lastSeen={-1,-1,-1};
         int cnt=0;
         for(int i=0;i<s.length();i++){
-            last_seen[s[i]-'a']=i;
-            cnt+=1+min(last_seen[0],min(last_seen[1],last_seen[2]));
+            lastSeen[s[i]-'a']=i;
+            if(lastSeen[0]!=-1 && lastSeen[1]!=-1 && lastSeen[2]!=-1){
+                cnt+=(1+min(lastSeen[0],min(lastSeen[1],lastSeen[2])));
+            }
         }
         return cnt;
     }
