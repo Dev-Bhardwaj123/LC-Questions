@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0424-longest-repeating-character-replacement](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/0424-longest-repeating-character-replacement) |
 | [0594-longest-harmonious-subsequence](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/0594-longest-harmonious-subsequence) |
 | [0904-fruit-into-baskets](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/0904-fruit-into-baskets) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
@@ -75,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0424-longest-repeating-character-replacement](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/0424-longest-repeating-character-replacement) |
 | [0594-longest-harmonious-subsequence](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/0594-longest-harmonious-subsequence) |
 | [0904-fruit-into-baskets](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/0904-fruit-into-baskets) |
 ## Counting
@@ -85,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0424-longest-repeating-character-replacement](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/0424-longest-repeating-character-replacement) |
 | [3617-find-the-original-typed-string-i](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/3617-find-the-original-typed-string-i) |
 | [3618-find-the-original-typed-string-ii](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/3618-find-the-original-typed-string-ii) |
 ## Prefix Sum
