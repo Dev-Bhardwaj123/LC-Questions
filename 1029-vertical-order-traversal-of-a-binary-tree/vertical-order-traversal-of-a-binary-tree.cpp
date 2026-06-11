@@ -21,7 +21,7 @@ public:
         q.push({root,{0,0}});
         while(!q.empty()){
             auto it=q.front();
-            TreeNode* curr=it.first;
+            TreeNode* curr= it.first;
             int line=it.second.first;
             int lvl=it.second.second;
             q.pop();
@@ -33,7 +33,7 @@ public:
                 q.push({curr->right,{line+1,lvl+1}});
             }
         }
-        for(auto& m:mp){
+        for(auto&m :mp){
             vector<int> lev;
             sort(m.second.begin(),m.second.end());
             for(auto& p:m.second){
