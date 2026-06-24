@@ -11,27 +11,17 @@
  */
 class Solution {
 public:
-    int preIndex=0;
-    TreeNode* constBTree(vector<int>& pre,vector<int>& inorder,int is,int ie){
-        if(is>ie){
+    TreeNode* build(vector<int>& preorder,int& i,int bound){
+        if(i==preorder.size() || preorder[i]>bound){
             return nullptr;
         }
-        TreeNode* root=new TreeNode(pre[preIndex++]);
-        int inIndex;
-        for(int i=0;i<pre.size();i++){
-            if(inorder[i]==root->val){
-                inIndex=i;
-                break;
-            }
-        }
-        root->left=constBTree(pre,inorder,is,inIndex-1);
-        root->right=constBTree(pre,inorder,inIndex+1,ie);
+        TreeNode* root=new TreeNode(preorder[i++]);
+        root->left=build(preorder,i,root->val);
+        root->right=build(preorder,i,bound);
         return root;
     }
     TreeNode* bstFromPreorder(vector<int>& preorder) {
-        vector<int> pre=preorder;
-        sort(preorder.begin(),preorder.end());
-        vector<int> inorder=preorder;
-        return constBTree(pre,inorder,0,pre.size()-1);
+        int i=0;
+        return build(preorder,i,INT_MAX);
     }
 };
