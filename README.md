@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0126-word-ladder-ii](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/0126-word-ladder-ii) |
 | [0424-longest-repeating-character-replacement](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/0424-longest-repeating-character-replacement) |
 | [0594-longest-harmonious-subsequence](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/0594-longest-harmonious-subsequence) |
 | [0904-fruit-into-baskets](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/0904-fruit-into-baskets) |
@@ -101,6 +102,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0126-word-ladder-ii](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/0126-word-ladder-ii) |
 | [0424-longest-repeating-character-replacement](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/0424-longest-repeating-character-replacement) |
 | [3617-find-the-original-typed-string-i](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/3617-find-the-original-typed-string-i) |
 | [3618-find-the-original-typed-string-ii](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/3618-find-the-original-typed-string-ii) |
@@ -134,8 +136,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0100-same-tree](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0126-word-ladder-ii](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/0126-word-ladder-ii) |
 ## Linked List
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/0002-add-two-numbers) |
+## Backtracking
+|  |
+| ------- |
+| [0126-word-ladder-ii](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/0126-word-ladder-ii) |
 <!---LeetCode Topics End-->
