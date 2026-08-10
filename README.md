@@ -39,12 +39,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/0002-add-two-numbers) |
 | [0096-unique-binary-search-trees](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/0096-unique-binary-search-trees) |
 | [0342-power-of-four](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/0342-power-of-four) |
+| [1510-stone-game-iv](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/1510-stone-game-iv) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 | [3601-find-the-k-th-character-in-string-game-ii](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
 ## Dynamic Programming
 |  |
 | ------- |
 | [0096-unique-binary-search-trees](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/0096-unique-binary-search-trees) |
+| [1510-stone-game-iv](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/1510-stone-game-iv) |
 | [3618-find-the-original-typed-string-ii](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/3618-find-the-original-typed-string-ii) |
 ## Tree
 |  |
@@ -145,4 +147,24 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0126-word-ladder-ii](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/0126-word-ladder-ii) |
+## Minimax
+|  |
+| ------- |
+| [1510-stone-game-iv](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/1510-stone-game-iv) |
+## Game Theory
+|  |
+| ------- |
+| [1510-stone-game-iv](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/1510-stone-game-iv) |
+## Nim Game
+|  |
+| ------- |
+| [1510-stone-game-iv](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/1510-stone-game-iv) |
+## Sprague–Grundy Theorem
+|  |
+| ------- |
+| [1510-stone-game-iv](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/1510-stone-game-iv) |
+## Zero-Sum Game
+|  |
+| ------- |
+| [1510-stone-game-iv](https://github.com/Dev-Bhardwaj123/LC-Questions/tree/master/1510-stone-game-iv) |
 <!---LeetCode Topics End-->
